@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario2</title>
+</head>
+<body>
+    <main>
+        <img src="./programadora.png" alt="imagen_pro" id="imagen_pro">
+        <form class="Formulario2">
+                <h1>Mi formulario de registro</h1>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="password" id="contraseña">
+                <label for="confirmar">Confirmar contraseña</label>
+                <input type="password" name="confirmar" id="confirmar">
+                <label for="cumpleanos">Cumpleaños</label>
+                <input type="date" name="cumpleanos" id="cumpleanos">
+                <div class="genero">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="masculino">
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" name="genero" id="femenino">
+                    <label for="otro">otro/prefiero no decir</label>
+                    <input type="radio" name="genero" id="otro">
+                </div>
+                <label for="descripcion">Descripcion</label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+                <label for="language">Lenguaje</label>
+                <select name="language" id="language">
+                    <option value="javascrip">javascrip</option>
+                    <option value="pyton">pyton</option>
+                    <option value="java">java</option>
+                </select>
+                <input type="submit" value="enviar" id="btn">
+        </form>
+    </main>
+</body>
+</html>

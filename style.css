@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(143, 143, 8);
+    color: rgb(53, 6, 6);
+}
+
+main{
+    width: 80%; /*ancho de main, acapare el 80% de body*/
+    margin: 0 auto;
+    background-color: white;
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+
+#imagen_pro{
+    width: 40%;
+    vertical-align: top;
+    margin-top: 80px;
+}
+
+.Formulario2{/* para acceder a una clase se usa.*/
+    width: 50%;
+    display: inline-block;
+}
+
+.Formulario2 label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Formulario2 input, textarea, select{
+    width: 100%;
+}
+
+.genero label, #masculino, #femenino, #otro{
+    display: inline-block;
+    width: unset;
+}
+
+#btn{
+    color: yellow;
+    background-color:rgb(53, 6, 6);
+    border: none;
+    margin-top: 10px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
